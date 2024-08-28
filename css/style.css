@@ -1,0 +1,82 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+img {
+  height: 48px;
+  width: 48px;
+  border-radius: 9999px;
+}
+* {
+  box-sizing: border-box;
+  background-color: E4E7EA;
+}
+.bigcard {
+  width: 340px;
+  padding: 24px;
+  height: 233px;
+  margin: 200px auto auto auto;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  background-color: white; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light grey shadow */
+}
+.name {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  background-color: white;
+}
+.uname {
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: white;
+  color: #6e6e6e;
+}
+.card {
+  display: flex;
+
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: white;
+}
+.userinfo {
+  display: block;
+  padding-top: 16px;
+  color: #525252;
+  background-color: white;
+  width: 292px;
+  height: 120px;
+  margin-bottom: 24px;
+}
+
+.username {
+  color: #3a3a3a;
+  background-color: white;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
