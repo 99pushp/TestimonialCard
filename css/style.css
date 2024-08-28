@@ -80,3 +80,14 @@ img {
   color: #000;
   font-weight: bold;
 }
+@media screen and (min-width: 768px) {
+  .container {
+    min-height: 1440px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    min-height: 768px;
+  }
+}
